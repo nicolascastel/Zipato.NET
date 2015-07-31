@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVMS.Zipato.NET", "LVMS.Zipato.NET\LVMS.Zipato.NET.csproj", "{CC983726-6D11-4680-A547-30DED5F5E2BB}"
 EndProject
@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		DeployNuGet.bat = DeployNuGet.bat
 		ZipatoNet.Signed.nuspec = ZipatoNet.Signed.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVMS.Zipato.NET.TestClientWPF", "LVMS.Zipato.NET.TestClientWPF\LVMS.Zipato.NET.TestClientWPF.csproj", "{000D9479-BABA-46AE-91FE-83676B3E27B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,12 @@ Global
 		{B6BCD778-7CDD-4DD1-B375-BBBF8C7F11A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6BCD778-7CDD-4DD1-B375-BBBF8C7F11A7}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BCD778-7CDD-4DD1-B375-BBBF8C7F11A7}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{000D9479-BABA-46AE-91FE-83676B3E27B7}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
